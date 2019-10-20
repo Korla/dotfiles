@@ -25,6 +25,9 @@ brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
+# Install zsh
+brew install zsh
+brew install zsh-completions
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
